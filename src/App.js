@@ -9,9 +9,9 @@ import Section from './components/section.js';
 
 
 
+
 class App extends Component {
   render() {
-    let actorsList = actors.map((person)=>
     return (
       <div className="App">
         <NavBar />
@@ -22,12 +22,7 @@ class App extends Component {
       </div>
     );
   }
-});
-return (
-  <div className = "list-group">
-  {actorsList}
-  </div>
+}
 
-);
 
 export default App;
